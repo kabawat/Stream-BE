@@ -1,0 +1,64 @@
+
+# Go binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.app
+
+# Build directories
+/bin/
+/build/
+/dist/
+
+# Go workspace
+go.work
+go.work.sum
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Test and coverage files
+coverage.out
+coverage.html
+*.cover
+
+# Debug files
+debug
+debug.test
+
+# Local configuration
+config.local.yaml
+config.local.yml
+config.local.json
+
+certs/
+/certs/*
+# Vendor directory (optional)
+# Uncomment if you want Git to ignore vendored dependencies
+# vendor/
